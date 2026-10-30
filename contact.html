@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StyleHub Clothing - Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Name: Sadman Hossain , ID : 2230824 -->
+
+    <!-- Header -->
+    <header>
+        <div class="logo-container">
+            <h1>StyleHub Fashion & Apparel</h1>
+        </div>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="contact.html" class="active">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contact Our Fashion Team</h2>
+
+        <!-- P 1 -->
+        <p>
+            Have questions about clothing sizes, fabric materials, customized tailoring, or current order shipping status? Our dedicated fashion support team is ready to help you choose the best clothing options for your wardrobe.
+        </p>
+
+        <!-- P 2 -->
+        <p>
+            Please fill out the contact form below or visit our flagship boutique during business hours. All customer queries and custom sizing requests are responded to within two hours during store operating days.
+        </p>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <!-- Image 1 -->
+                <img src="https://picsum.photos/id/331/600/400" alt="Clothing Store Interior" class="img-responsive">
+                <h3>Flagship Boutique</h3>
+                <p><strong>Address:</strong> StyleHub Tower, Fashion Avenue, Plot 12</p>
+                <p><strong>Email:</strong> support@stylehub.com</p>
+                <p><strong>Phone:</strong> +880 1700-000000</p>
+            </div>
+
+            <div class="contact-form-box">
+                <!-- Image 2 -->
+                <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=600&h=400&fit=crop" alt="Clothing Rack Apparel" class="img-responsive">
+                <form onsubmit="handleContactSubmit(event)">
+                    <div class="form-group">
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" required placeholder="Sadman Hossain">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" required placeholder="sadman@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message / Sizing Query:</label>
+                        <textarea id="message" rows="4" required placeholder="Ask about sizes, fabrics, or orders..."></textarea>
+                    </div>
+                    <!-- Button 2 -->
+                    <button type="submit" class="btn-secondary" onclick="handleContactSubmit(event)">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 StyleHub Clothing. Developed by Sadman Hossain (ID: 2230824).</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
